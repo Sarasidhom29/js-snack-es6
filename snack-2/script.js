@@ -9,19 +9,19 @@
 
 const squadreInGara = [
     {
-        nome: Juventus,
+        nome: 'Juventus',
         puntiSegnati: 0,
         falliSubiti: 0 
     },
 
     {
-        nome: Milan,
+        nome: 'Milan',
         puntiSegnati: 0,
         falliSubiti: 0 
     },
 
     {
-        nome: Inter,
+        nome: 'Inter',
         puntiSegnati: 0,
         falliSubiti: 0 
     }
