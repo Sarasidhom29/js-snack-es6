@@ -26,3 +26,17 @@ const squadreInGara = [
         falliSubiti: 0 
     }
 ]
+
+//generatore numeri casuali
+function generatoreNum(max) {
+    return Math.floor(Math.random() * max);
+}
+
+//assegnazione numeri casuali
+
+for (let squadra of squadreInGara) {
+    squadra.puntiSegnati = generatoreNum (20);
+    squadra.falliSubiti = generatoreNum (10);
+}
+
+console.log(squadreInGara);
