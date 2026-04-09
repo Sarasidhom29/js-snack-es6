@@ -28,7 +28,7 @@ const biciInGara = [
 
 ]
 
-// Confronto peso
+// Confronto peso per trovare il minore
 
 let pesoMinore = biciInGara[0].peso;
 
@@ -42,6 +42,9 @@ for (let i = 1; i < biciInGara.length; i++) {
 }
 
 console.log(pesoMinore + ' ' + 'kg');
+
+
+// Individuare bici con peso minore
 
 let biciPiùLeggera
 
