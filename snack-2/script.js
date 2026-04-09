@@ -39,4 +39,17 @@ for (let squadra of squadreInGara) {
     squadra.falliSubiti = generatoreNum (10);
 }
 
-console.log(squadreInGara);
+
+//nuovo array con solo nome e falli
+const squadreFalli = [];
+
+for (let squadra of squadreInGara) {
+
+    squadreFalli.push ({
+        nome: squadra.nome,
+        falliSubiti: squadra.falliSubiti
+    });
+}
+
+console.log(squadreFalli);
+
