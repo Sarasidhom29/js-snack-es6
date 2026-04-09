@@ -42,3 +42,15 @@ for (let i = 1; i < biciInGara.length; i++) {
 }
 
 console.log(pesoMinore + ' ' + 'kg');
+
+let biciPiùLeggera
+
+for (let bici of biciInGara) {
+
+    if (bici.peso === pesoMinore) {
+        biciPiùLeggera = bici;
+    }
+
+}
+
+console.log (biciPiùLeggera);
